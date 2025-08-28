@@ -3,6 +3,8 @@ package bu.performance.webpage.loadtime;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
+//BU Performance
+
 public class PerformanceMonitor implements Runnable {
     private WebDriver driver;
     private volatile boolean running = true; // Use volatile to ensure visibility across threads
