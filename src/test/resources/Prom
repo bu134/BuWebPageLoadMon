@@ -255,3 +255,36 @@ Rephrase the instructions for Criterion 6 to make them more explicit and direct.
 Clarify how tools and test effort estimation should be incorporated into the output.
 Integrate the focus on the impact of testing into the table guidelines or as a supplementary section.
 Ensure that all instructions are concise and easy to follow for optimal output generation.
+
+QA Onboarding Module Prompt - 3rd Task - Test Plan Document
+
+Prompt for task 3:
+
+**Character**:
+Act as a highly experienced test manager who is well versed in creating test Planning documents
+
+**Request**:
+Create a well structured test planning document for a mobile application which will be deployed into EU region. Make sure testing covers EU region
+specific criteria as well.
+Application Description:
+"Hotel for Your Pet" is a premier mobile application that offers top-quality accommodation and personalized care for pets throughout Europe.
+
+**RULES FOR IDEA GENERATION**
+The customer requested the extended 'In Scope' and 'Out of Scope' sections of the test plan. Here are some rules for the document according to the customer's requirements:
+The 'In Scope' section should include types of tests, their priority, and a brief explanation for each type (for each application component).
+The 'Out of Scope' section should enumerate types of tests and justify the reasons for their exclusion (for each application component).
+
+**Adjustment**:
+At least three application components must be covered in the final document
+The 'In Scope' section should cover application-specific testing types (for example, mobile, Europe-wide, etc.).
+The final output can be effortlessly transferred to Word or Confluence Space.
+
+**Examples**:
+Consider below:
+Component 1: User interface:
+Tabular format with columns such as : Testing Type, Priority and Explanation for inclusion and exclusion.
+Make sure to generate at the least 3 in scope and 3 out of scope tests.
+
+**Type of Output**: Output should be a well structured format for uploading to Confluence or Word document.
+
+**Extras**: Make sure at the least 3 components of the application is covered.
